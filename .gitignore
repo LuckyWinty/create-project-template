@@ -1,0 +1,29 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+src/webpack-repo/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+src/webpack-repo/dist
+/dist
+/.next
+/out
+
+# misc
+.DS_Store
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn-lock.json
+.cache
+
+# IDE
+/.idea
+/.vscode
